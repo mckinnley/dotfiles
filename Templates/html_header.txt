@@ -1,0 +1,29 @@
+:insert
+
+<!--
+Programmer: McKinnley Workman
+Description:   
+-->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Some Title</title>
+
+	    <!-- meta tags -->
+    	<meta name="viewport" content="width=device-width">
+
+	    <!-- stylesheets -->
+	    <link rel="stylesheet" href="myStyleSheet.css"/>
+		
+		<!-- scripts  -->
+		<script type="text/javascript" src="myJFile.js"></script>
+	</head>
+
+	<body>
+	</body>
+
+</html>
+
+.

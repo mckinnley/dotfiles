@@ -1,0 +1,22 @@
+:insert
+/*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+*	Programmer: McKinnley Workman
+
+*	File Name: 
+
+*	Creation Date:
+
+*	Last Modified:
+
+*	Purpose/Description:
+
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	return 0;
+}
+.
