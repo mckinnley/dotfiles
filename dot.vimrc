@@ -12,6 +12,8 @@ runtime! debian vim
 :set shiftwidth=4
 :set hlsearch
 :set number
+:set expandtab
+:set tabstop=4
 :set incsearch
 :set textwidth=80
 :set cmdheight=2
@@ -29,7 +31,7 @@ runtime! debian vim
 
 "Make C header file template
 "http://www.math.technion.ac.il/Site/computing/docs/vim/autocmd.html#BufNewFile for awesome information
-autocmd bufnewfile *.c so /home/mckinnley/dotfiles/Templates/c_header.txt
+autocmd bufnewfile *.c so /home/admin48/dotfiles/Templates/c_header.txt
 autocmd bufnewfile *.c exe "1," . 10 . "g/File Name:.*/s//File Name: " .expand("%")
 autocmd bufnewfile *.c exe "1," . 10 . "g/Creation Date:.*/s//Creation Date: " .strftime("%d-%m-%Y")
 autocmd Bufwritepre,filewritepre *.c execute "normal ma"
